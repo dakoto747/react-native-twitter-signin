@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 
-const { RNTwitterSignIn } = NativeModules;
+const RNTwitterSignIn = NativeModules.RNTwitterSignIn;
 
 const Constants = {
     //Dev Parse keys
